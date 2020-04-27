@@ -30,3 +30,67 @@ body{
 #p1{
     height: 350px;
 }
+
+
+.contact
+{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-family: courier;
+    font-weight: bold;
+    padding: 30px;
+    text-align: center;
+}
+.your
+{
+	color: white;
+	font-family: courier;
+	font-size: 20px;
+}
+#form_head
+{
+	color: white;
+	font-size: 30px;
+	font-family: courier;
+	margin-left: 30px;
+}
+#name
+{
+	width: 240px;
+	height: 35px;
+	background: transparent;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid grey;
+}
+#email
+{
+	width: 240px;
+	height: 35px;
+	background: transparent;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid grey;
+}
+#submit
+{
+	width: 150px;
+	height: 50px;
+	background-color: 00ccff;
+	color: white;
+	font-family: courier;
+	font-size: 20px;
+	border-radius: 10px;
+}
+#city
+{
+	backdrop-filter : blur (10px);
+}
+textarea
+{
+	width: 450px;
+	height: 150px;
+}
