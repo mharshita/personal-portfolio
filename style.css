@@ -268,6 +268,14 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 	/* width: 40%; */
 }
 
+.proj-credit{
+	font-size: 1.5em !important;
+}
+
+.proj-img{
+	height: 40%;
+}
+
 .blog-txt{
 	vertical-align: bottom;
 	font-family: 'Dancing Script', cursive !important;
@@ -289,7 +297,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 	background-color: white;
 	padding: 2em;
 	border-style: solid;
-	border-color: aqua;
+	border-color: rgb(0, 132, 255);
 }
 
 .your
@@ -309,31 +317,30 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 {
 	width: 240px;
 	height: 35px;
-	background: transparent;
-	/* background: transparent; */
-	/* border: none; */
-	outline: none;
-	/* border-bottom: 1px solid grey; */
 }
+
 #email
 {
 	width: 240px;
 	height: 35px;
-	/* background: transparent; */
-	background: transparent;
-	/* border: none; */
-	outline: none;
-	border-bottom: 1px solid grey;
 }
+
 #submit
 {
 	width: 150px;
 	height: 50px;
-	background-color: 00ccff;
-	color: white;
+	background-color: white;
+	color: rgb(12, 146, 12);
+	border-color:  rgb(12, 146, 12);
 	font-family: courier;
 	font-size: 20px;
-	border-radius: 10px;
+	font-weight: bold;
+	/* border-radius: 10px; */
+}
+
+#submit:hover{
+	color: white;
+	background-color: rgb(12, 146, 12);
 }
 
 textarea

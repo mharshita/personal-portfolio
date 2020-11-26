@@ -21,6 +21,7 @@
                             <li><a href="#landing" class="nav-li">Home</a></li>
                             <li><a href="#intro" class="nav-li">About</a></li>
                             <li><a href="#work" class="nav-li">Projects</a></li>
+                            <li><a href="#blogs" class="nav-li">Blogs</a></li>
                             <li><a href="#contact" class="nav-li">Contact</a></li>
                         </ul>
                     </div>
@@ -174,7 +175,7 @@
             <div class="col center s4">
                 <div class="card proj-card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="https://s3.amazonaws.com/poly-screenshots.angel.co/Project/8b/1227474/3a2504895aa14ca44db1a3aa8d995d8f-original.png">
+                        <img class="activator proj-img" src="https://s3.amazonaws.com/poly-screenshots.angel.co/Project/8b/1227474/3a2504895aa14ca44db1a3aa8d995d8f-original.png">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator purple-text text-lighten-5">THE FOODIEZ <i class="mdi-navigation-more-vert right"></i></span>
@@ -192,7 +193,7 @@
                         <img class="activator proj-img" src="https://s3.amazonaws.com/poly-screenshots.angel.co/Project/ee/1227479/d22339b8e46749cdf8f067dbba081be9-original.png">
                     </div>
                     <div class="card-content proj-head">
-                        <span class="card-title activator purple-text text-lighten-5">Credit Management App<i class="mdi-navigation-more-vert right"></i></span>
+                        <span class="card-title activator proj-credit purple-text text-lighten-5">Credit Management App<i class="mdi-navigation-more-vert right"></i></span>
                         <p><a class="purple-text text-lighten-5" href="https://todo-list-php-mysql.herokuapp.com/">Project link</a></p>
                     </div>
                     <div class="card-reveal">
@@ -236,20 +237,20 @@
 </div>
     </div>	
     <!--Blog-->
-    <div class="blog section" style="background-color: aliceblue;">
+    <div class="blog section" style="background-color: aliceblue;" id="blogs">
         <h5 class="center about-head">Blogs</h5>
         <div class="row">
             <div class="col s4" style="padding: 3em;">
               <div class="card center">
                 <div class="card-image" style="height: 40%;">
-                  <img src="blog.png">
+                  <img src="https://miro.medium.com/max/700/1*tG-afMQYWBg4QhFEZq7ZnA.png">
                   <span class="card-title">Card Title</span>
                 </div>
                 <div class="card-content" style="background-color: rgb(15, 129, 129);">
                   <p class="white-text">My Open Source Journey with Contributors' Hack 2020</p>
                 </div>
                 <div class="card-action" style="background-color: rgb(11, 95, 95);">
-                  <a href="https://medium.com/@manglaharshita/my-open-source-journey-with-contributors-hack-2020-7dab144bb65e">Link</a>
+                  <a href="https://medium.com/@manglaharshita/my-open-source-journey-with-contributors-hack-2020-7dab144bb65e">Read</a>
                 </div>
               </div>
             </div>
@@ -271,19 +272,20 @@
             <div class="container">
                 <div class="row">
                     <div class="col s12 center white-text">
-                        <h1><b>CONTACT</b></h1>
+                        <h1 style="font-family: 'Dancing Script', cursive !important;"><b>Say Hii :)</b></h1>
                         <!-- <p class="contact"><a href="https://www.linkedin.com/in/harshita-mangla-6ab57a192" class="contact">LinkedIn</a></p> -->
                         <!-- <p class="contact">E-mail : manglaharshita@gmail.com</p> -->
                         <br/><br/>
                         <form action="port.php" method="post">
-                        <h1 id="form_head">SAY HELLO :)</h1>
+                        <!-- <h1 id="form_head">SAY HELLO :)</h1> -->
                         <div class="contact-form">
-                        <label for="name" class="your">Your Name</label></br>
-                        <input type="text" id="name" name="name" /></br></br>
-                        <label for="e-mail" class="your">Your E-mail</label></br>
-                        <input name="email" type="email" id="email"/></br></br>
-                        <label for="message" class="your">Message</br><textarea id="subject" name="message" placeholder="Leave a message..." ></textarea></br></br>
-                        <input type="submit" value="submit" id="submit"/>
+                        <!-- <label for="name" class="your">Your Name</label></br> -->
+                        <input type="text" id="name" name="name" placeholder="Name" /></br></br>
+                        <!-- <label for="e-mail" class="your">Your E-mail</label></br> -->
+                        <input name="email" type="email" id="email" placeholder="Email" /></br></br>
+                        <!-- <label for="message" class="your">Message</br> -->
+                            <textarea id="subject" name="message" placeholder="Leave a message..." ></textarea></br></br>
+                        <input type="submit" value="Send" id="submit"/>
                         </div>
 						</form>
                     </div>
