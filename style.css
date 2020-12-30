@@ -52,7 +52,17 @@ body {
 	position: fixed;
 	right: 0;
 	top: 0;
-	z-index: -1;
+  z-index: -1;
+}
+
+.background-wrap{
+  display: none;
+}
+
+@media(min-width: 60rem){
+  .background-wrap{
+    display: block;
+  }
 }
 
 .cloud1{
@@ -206,6 +216,53 @@ body {
     z-index: -1;
 }
 
+.landing-mobile{
+  display: none;
+  background-color: #00b4ff;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: -1;
+  text-align: center;
+  margin: auto;
+}
+
+@media(max-width: 1024px){
+  .landing{
+    display: none;
+  }
+  .landing-mobile{
+    display: block;
+    height: 35vh;
+  }
+  .txt-mob{
+    padding-top: 4em;
+  }
+}
+
+@media(max-width: 880px){
+  .txt-mob{
+    padding-top: 6em;
+  }
+}
+
+@media(max-width: 800px){
+  .txt-mob{
+    padding-top: 10em;
+  }
+}
+
+@media(max-width: 700px){
+  .landing-mobile{
+    height: 20vh !important;
+  }
+}
+
+@media(max-width: 650px){
+  .landing-mobile{
+    height: 20vh !important;
+  }
+}
+
 .head-txt{
 	font-size: 0.8em !important;
 	font-family: 'Dancing Script', cursive !important;
@@ -238,8 +295,11 @@ body {
 	font-family: 'Open Sans', sans-serif !important;
 }
 
-.about-pic{
-	border-radius: 3em;
+@media(max-width: 991px){ 
+  .about-pic{
+    border-radius: 3em;
+    width: 40% !important; 
+  }
 }
 
 .about-p{
@@ -496,6 +556,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 	font-size: 30px;
 	font-family: courier;
 	margin-left: 30px;
+}
+
+.g{
+  color: #333;
 }
 
 .footer-icon{
